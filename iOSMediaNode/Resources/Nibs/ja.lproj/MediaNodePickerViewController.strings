@@ -1,0 +1,9 @@
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "7Ru-LD-C2a"; */
+"7Ru-LD-C2a.title" = "選択";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "dIh-3t-2dK"; */
+"dIh-3t-2dK.title" = "キャンセル";
+
+/* Class = "UINavigationItem"; title = "Select Node"; ObjectID = "vCW-K2-MEV"; */
+"vCW-K2-MEV.title" = "ノードを選択";

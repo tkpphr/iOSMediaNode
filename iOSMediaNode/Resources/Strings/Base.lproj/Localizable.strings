@@ -1,0 +1,8 @@
+//Copyright (c) 2018-present tkpphr. All rights reserved.
+"path" = "Path";
+"image" = "Image";
+"sound" = "Sound";
+"none" = "None";
+"search" = "search";
+"search_by_node_name" = "Search by nodename.";
+

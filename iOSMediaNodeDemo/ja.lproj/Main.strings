@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "04I-QA-iQQ"; */
+"04I-QA-iQQ.text" = "音声";
+
+/* Class = "UIButton"; normalTitle = "Play"; ObjectID = "6Wl-WX-BHP"; */
+"6Wl-WX-BHP.normalTitle" = "再生";
+
+/* Class = "UILabel"; text = "Node"; ObjectID = "JtJ-BL-tGp"; */
+"JtJ-BL-tGp.text" = "ノード";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "KWa-ek-Emi"; */
+"KWa-ek-Emi.normalTitle" = "選択";
+
+/* Class = "UILabel"; text = "Image"; ObjectID = "R41-bM-xwX"; */
+"R41-bM-xwX.text" = "画像";
+
+/* Class = "UIButton"; normalTitle = "Stop"; ObjectID = "c1j-2R-QGE"; */
+"c1j-2R-QGE.normalTitle" = "停止";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "lKg-HQ-Vuh"; */
+"lKg-HQ-Vuh.normalTitle" = "選択";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "sta-z7-J8v"; */
+"sta-z7-J8v.normalTitle" = "選択";

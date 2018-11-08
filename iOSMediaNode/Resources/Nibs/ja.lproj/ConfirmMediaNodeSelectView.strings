@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Play"; ObjectID = "1ml-y8-Od2"; */
+"1ml-y8-Od2.normalTitle" = "再生";
+
+/* Class = "UIButton"; normalTitle = "Stop"; ObjectID = "7uF-eq-efJ"; */
+"7uF-eq-efJ.normalTitle" = "停止";
+
+/* Class = "UILabel"; text = "None"; ObjectID = "MuY-ky-OhZ"; */
+"MuY-ky-OhZ.text" = "なし";
+
+/* Class = "UILabel"; text = "NodeInfo"; ObjectID = "TQ9-Kt-BB2"; */
+"TQ9-Kt-BB2.text" = "NodeInfo";
+
+/* Class = "UILabel"; text = "Sound"; ObjectID = "g00-hH-QdU"; */
+"g00-hH-QdU.text" = "音声";
+
+/* Class = "UILabel"; text = "NodeName"; ObjectID = "ksK-q2-mJV"; */
+"ksK-q2-mJV.text" = "ノード名";
+
+/* Class = "UILabel"; text = "Image"; ObjectID = "l2Z-He-nuX"; */
+"l2Z-He-nuX.text" = "画像";

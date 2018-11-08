@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoundMediaNodeInfo" id="Ebh-k8-g2O" customClass="FoundMediaNodeInfoViewCell" customModule="iOSMediaNode" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ebh-k8-g2O" id="usp-FT-bb0">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="127.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yA-qL-vw8">
+                        <rect key="frame" x="5" y="5" width="322" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="S9s-RA-lRt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaF-yb-mTn">
+                        <rect key="frame" x="5" y="34" width="322" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpE-uB-6iv" customClass="TransparentButton" customModule="iOSMediaNode" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="327" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="ybe-aC-AZG"/>
+                        </constraints>
+                        <connections>
+                            <action selector="onTapSelect:" destination="Ebh-k8-g2O" eventType="touchUpInside" id="DzA-cu-w9P"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEn-XX-heO">
+                        <rect key="frame" x="327" y="5" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="3pG-0t-0gN"/>
+                            <constraint firstAttribute="height" constant="48" id="kUW-at-xpR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        <state key="normal" title="→"/>
+                        <connections>
+                            <action selector="onTapShift:" destination="Ebh-k8-g2O" eventType="touchUpInside" id="uf3-n2-Irv"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VEn-XX-heO" secondAttribute="trailing" id="3Mv-Pw-atX"/>
+                    <constraint firstItem="VEn-XX-heO" firstAttribute="leading" secondItem="TaF-yb-mTn" secondAttribute="trailing" id="7pe-Bw-E0C"/>
+                    <constraint firstItem="TaF-yb-mTn" firstAttribute="top" secondItem="8yA-qL-vw8" secondAttribute="bottom" constant="8" id="Ghe-Fk-m9e"/>
+                    <constraint firstItem="VEn-XX-heO" firstAttribute="leading" secondItem="fpE-uB-6iv" secondAttribute="trailing" id="JK6-Nr-ojU"/>
+                    <constraint firstItem="TaF-yb-mTn" firstAttribute="leading" secondItem="usp-FT-bb0" secondAttribute="leading" constant="5" id="N8Y-Oc-ptM"/>
+                    <constraint firstItem="8yA-qL-vw8" firstAttribute="top" secondItem="usp-FT-bb0" secondAttribute="top" constant="5" id="PMb-Yf-o3w"/>
+                    <constraint firstItem="fpE-uB-6iv" firstAttribute="leading" secondItem="usp-FT-bb0" secondAttribute="leading" id="aaC-Kj-Ely"/>
+                    <constraint firstItem="VEn-XX-heO" firstAttribute="leading" secondItem="8yA-qL-vw8" secondAttribute="trailing" id="gUt-dQ-yud"/>
+                    <constraint firstItem="VEn-XX-heO" firstAttribute="top" secondItem="usp-FT-bb0" secondAttribute="top" constant="5" id="hwe-WC-RL4"/>
+                    <constraint firstItem="fpE-uB-6iv" firstAttribute="top" secondItem="usp-FT-bb0" secondAttribute="top" id="sHB-Jr-AhN"/>
+                    <constraint firstItem="8yA-qL-vw8" firstAttribute="leading" secondItem="usp-FT-bb0" secondAttribute="leading" constant="5" id="tRq-g5-nWd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
+            <connections>
+                <outlet property="nodeInfo" destination="TaF-yb-mTn" id="Tij-gW-PqW"/>
+                <outlet property="nodeName" destination="8yA-qL-vw8" id="9Dd-sT-eej"/>
+                <outlet property="selectButton" destination="fpE-uB-6iv" id="ld9-I8-iYK"/>
+                <outlet property="shiftButton" destination="VEn-XX-heO" id="q33-yz-4Tr"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

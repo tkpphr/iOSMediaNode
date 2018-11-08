@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D30A4221940C240014B21D /* iOSMediaNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D30A4021940C240014B21D /* iOSMediaNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D30A5F21940C670014B21D /* MediaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A4A21940C660014B21D /* MediaNode.swift */; };
+		01D30A6021940C670014B21D /* MediaNodeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A4C21940C660014B21D /* MediaNodeSelector.swift */; };
+		01D30A6121940C670014B21D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A4F21940C660014B21D /* UIViewExtension.swift */; };
+		01D30A6221940C670014B21D /* MediaNodePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5121940C660014B21D /* MediaNodePickerViewController.swift */; };
+		01D30A6321940C670014B21D /* MediaNodeExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5321940C660014B21D /* MediaNodeExplorerView.swift */; };
+		01D30A6421940C670014B21D /* ChildMediaNodeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5421940C660014B21D /* ChildMediaNodeTableView.swift */; };
+		01D30A6521940C670014B21D /* ChildMediaNodeInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5521940C660014B21D /* ChildMediaNodeInfoViewCell.swift */; };
+		01D30A6621940C670014B21D /* MediaNodePathBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5621940C660014B21D /* MediaNodePathBar.swift */; };
+		01D30A6721940C670014B21D /* MediaNodePathAncestorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5721940C660014B21D /* MediaNodePathAncestorCell.swift */; };
+		01D30A6821940C670014B21D /* ParentMediaNodeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5821940C660014B21D /* ParentMediaNodeInfoView.swift */; };
+		01D30A6921940C670014B21D /* MediaNodePathLastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5921940C660014B21D /* MediaNodePathLastCell.swift */; };
+		01D30A6A21940C670014B21D /* MediaNodeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5A21940C660014B21D /* MediaNodeSelectorView.swift */; };
+		01D30A6B21940C670014B21D /* FoundMediaNodeInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5B21940C660014B21D /* FoundMediaNodeInfoViewCell.swift */; };
+		01D30A6C21940C670014B21D /* ConfirmMediaNodeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5C21940C660014B21D /* ConfirmMediaNodeSelectView.swift */; };
+		01D30A6D21940C670014B21D /* FoundMediaNodeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5D21940C660014B21D /* FoundMediaNodeTableView.swift */; };
+		01D30A6E21940C670014B21D /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A5E21940C660014B21D /* TransparentButton.swift */; };
+		01D30A8521940C6D0014B21D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7121940C6D0014B21D /* Localizable.strings */; };
+		01D30A8821940C6D0014B21D /* MediaNodePathLastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7921940C6D0014B21D /* MediaNodePathLastCell.xib */; };
+		01D30A8921940C6D0014B21D /* ChildMediaNodeInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7A21940C6D0014B21D /* ChildMediaNodeInfoViewCell.xib */; };
+		01D30A8A21940C6D0014B21D /* MediaNodePathBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7B21940C6D0014B21D /* MediaNodePathBar.xib */; };
+		01D30A8B21940C6D0014B21D /* MediaNodePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7C21940C6D0014B21D /* MediaNodePickerViewController.xib */; };
+		01D30A8C21940C6D0014B21D /* ConfirmMediaNodeSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A7E21940C6D0014B21D /* ConfirmMediaNodeSelectView.xib */; };
+		01D30A8D21940C6D0014B21D /* MediaNodeSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A8021940C6D0014B21D /* MediaNodeSelectorView.xib */; };
+		01D30A8E21940C6D0014B21D /* MediaNodePathAncestorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A8121940C6D0014B21D /* MediaNodePathAncestorCell.xib */; };
+		01D30A8F21940C6D0014B21D /* FoundMediaNodeInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A8221940C6D0014B21D /* FoundMediaNodeInfoViewCell.xib */; };
+		01D30A9021940C6D0014B21D /* ParentMediaNodeInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A8321940C6D0014B21D /* ParentMediaNodeInfoView.xib */; };
+		01D30A9121940C6D0014B21D /* MediaNodeExplorerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D30A8421940C6D0014B21D /* MediaNodeExplorerView.xib */; };
+		01D30A9D21940EEA0014B21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A9C21940EEA0014B21D /* AppDelegate.swift */; };
+		01D30A9F21940EEA0014B21D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30A9E21940EEA0014B21D /* ViewController.swift */; };
+		01D30AA421940EEB0014B21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AA321940EEB0014B21D /* Assets.xcassets */; };
+		01D30AA721940EEB0014B21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AA521940EEB0014B21D /* LaunchScreen.storyboard */; };
+		01D30AAC21940EF40014B21D /* iOSMediaNode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D30A3D21940C240014B21D /* iOSMediaNode.framework */; };
+		01D30AAD21940EF40014B21D /* iOSMediaNode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01D30A3D21940C240014B21D /* iOSMediaNode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01D30ABC21940F4B0014B21D /* grand_child_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB421940F4A0014B21D /* grand_child_2.png */; };
+		01D30ABD21940F4B0014B21D /* child_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB521940F4B0014B21D /* child_2.png */; };
+		01D30ABE21940F4B0014B21D /* grand_child_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB621940F4B0014B21D /* grand_child_1.png */; };
+		01D30ABF21940F4B0014B21D /* grand_child_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB721940F4B0014B21D /* grand_child_3.png */; };
+		01D30AC021940F4B0014B21D /* child_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB821940F4B0014B21D /* child_3.png */; };
+		01D30AC121940F4B0014B21D /* child_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AB921940F4B0014B21D /* child_1.png */; };
+		01D30AC221940F4B0014B21D /* child_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30ABA21940F4B0014B21D /* child_4.png */; };
+		01D30AC321940F4B0014B21D /* parent_root.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D30ABB21940F4B0014B21D /* parent_root.png */; };
+		01D30AC721940F550014B21D /* sound_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AC421940F550014B21D /* sound_1.wav */; };
+		01D30AC821940F550014B21D /* sound_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AC521940F550014B21D /* sound_2.wav */; };
+		01D30AC921940F550014B21D /* sound_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AC621940F550014B21D /* sound_3.wav */; };
+		01D30ACD21940F740014B21D /* DemoMediaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D30ACB21940F740014B21D /* DemoMediaNode.swift */; };
+		01D30AD0219410A60014B21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AD2219410A60014B21D /* Main.storyboard */; };
+		01D30AD6219411280014B21D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01D30AD8219411280014B21D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D30AAE21940EF40014B21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D30A3421940C240014B21D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D30A3C21940C240014B21D;
+			remoteInfo = iOSMediaNode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01D30AB021940EF50014B21D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01D30AAD21940EF40014B21D /* iOSMediaNode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01D30A3D21940C240014B21D /* iOSMediaNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSMediaNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D30A4021940C240014B21D /* iOSMediaNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSMediaNode.h; sourceTree = "<group>"; };
+		01D30A4121940C240014B21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D30A4A21940C660014B21D /* MediaNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNode.swift; sourceTree = "<group>"; };
+		01D30A4C21940C660014B21D /* MediaNodeSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodeSelector.swift; sourceTree = "<group>"; };
+		01D30A4F21940C660014B21D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		01D30A5121940C660014B21D /* MediaNodePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodePickerViewController.swift; sourceTree = "<group>"; };
+		01D30A5321940C660014B21D /* MediaNodeExplorerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodeExplorerView.swift; sourceTree = "<group>"; };
+		01D30A5421940C660014B21D /* ChildMediaNodeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildMediaNodeTableView.swift; sourceTree = "<group>"; };
+		01D30A5521940C660014B21D /* ChildMediaNodeInfoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildMediaNodeInfoViewCell.swift; sourceTree = "<group>"; };
+		01D30A5621940C660014B21D /* MediaNodePathBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodePathBar.swift; sourceTree = "<group>"; };
+		01D30A5721940C660014B21D /* MediaNodePathAncestorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodePathAncestorCell.swift; sourceTree = "<group>"; };
+		01D30A5821940C660014B21D /* ParentMediaNodeInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentMediaNodeInfoView.swift; sourceTree = "<group>"; };
+		01D30A5921940C660014B21D /* MediaNodePathLastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodePathLastCell.swift; sourceTree = "<group>"; };
+		01D30A5A21940C660014B21D /* MediaNodeSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaNodeSelectorView.swift; sourceTree = "<group>"; };
+		01D30A5B21940C660014B21D /* FoundMediaNodeInfoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundMediaNodeInfoViewCell.swift; sourceTree = "<group>"; };
+		01D30A5C21940C660014B21D /* ConfirmMediaNodeSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmMediaNodeSelectView.swift; sourceTree = "<group>"; };
+		01D30A5D21940C660014B21D /* FoundMediaNodeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundMediaNodeTableView.swift; sourceTree = "<group>"; };
+		01D30A5E21940C660014B21D /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentButton.swift; sourceTree = "<group>"; };
+		01D30A7221940C6D0014B21D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01D30A7321940C6D0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01D30A7921940C6D0014B21D /* MediaNodePathLastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaNodePathLastCell.xib; sourceTree = "<group>"; };
+		01D30A7A21940C6D0014B21D /* ChildMediaNodeInfoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildMediaNodeInfoViewCell.xib; sourceTree = "<group>"; };
+		01D30A7B21940C6D0014B21D /* MediaNodePathBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaNodePathBar.xib; sourceTree = "<group>"; };
+		01D30A7D21940C6D0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MediaNodePickerViewController.xib; sourceTree = "<group>"; };
+		01D30A7F21940C6D0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ConfirmMediaNodeSelectView.xib; sourceTree = "<group>"; };
+		01D30A8021940C6D0014B21D /* MediaNodeSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaNodeSelectorView.xib; sourceTree = "<group>"; };
+		01D30A8121940C6D0014B21D /* MediaNodePathAncestorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaNodePathAncestorCell.xib; sourceTree = "<group>"; };
+		01D30A8221940C6D0014B21D /* FoundMediaNodeInfoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoundMediaNodeInfoViewCell.xib; sourceTree = "<group>"; };
+		01D30A8321940C6D0014B21D /* ParentMediaNodeInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentMediaNodeInfoView.xib; sourceTree = "<group>"; };
+		01D30A8421940C6D0014B21D /* MediaNodeExplorerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaNodeExplorerView.xib; sourceTree = "<group>"; };
+		01D30A9321940DEF0014B21D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MediaNodePickerViewController.strings; sourceTree = "<group>"; };
+		01D30A9521940DF60014B21D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ConfirmMediaNodeSelectView.strings; sourceTree = "<group>"; };
+		01D30A9A21940EEA0014B21D /* iOSMediaNodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMediaNodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D30A9C21940EEA0014B21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01D30A9E21940EEA0014B21D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01D30AA321940EEB0014B21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01D30AA621940EEB0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01D30AA821940EEB0014B21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D30AB421940F4A0014B21D /* grand_child_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grand_child_2.png; sourceTree = "<group>"; };
+		01D30AB521940F4B0014B21D /* child_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_2.png; sourceTree = "<group>"; };
+		01D30AB621940F4B0014B21D /* grand_child_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grand_child_1.png; sourceTree = "<group>"; };
+		01D30AB721940F4B0014B21D /* grand_child_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grand_child_3.png; sourceTree = "<group>"; };
+		01D30AB821940F4B0014B21D /* child_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_3.png; sourceTree = "<group>"; };
+		01D30AB921940F4B0014B21D /* child_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_1.png; sourceTree = "<group>"; };
+		01D30ABA21940F4B0014B21D /* child_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_4.png; sourceTree = "<group>"; };
+		01D30ABB21940F4B0014B21D /* parent_root.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parent_root.png; sourceTree = "<group>"; };
+		01D30AC421940F550014B21D /* sound_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_1.wav; sourceTree = "<group>"; };
+		01D30AC521940F550014B21D /* sound_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_2.wav; sourceTree = "<group>"; };
+		01D30AC621940F550014B21D /* sound_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_3.wav; sourceTree = "<group>"; };
+		01D30ACB21940F740014B21D /* DemoMediaNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoMediaNode.swift; sourceTree = "<group>"; };
+		01D30AD3219410AD0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01D30AD5219410B90014B21D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		01D30AD92194112C0014B21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01D30ADA219411350014B21D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D30A3921940C240014B21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D30A9721940EEA0014B21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30AAC21940EF40014B21D /* iOSMediaNode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D30A3321940C240014B21D = {
+			isa = PBXGroup;
+			children = (
+				01D30A3F21940C240014B21D /* iOSMediaNode */,
+				01D30A9B21940EEA0014B21D /* iOSMediaNodeDemo */,
+				01D30A3E21940C240014B21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D30A3E21940C240014B21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A3D21940C240014B21D /* iOSMediaNode.framework */,
+				01D30A9A21940EEA0014B21D /* iOSMediaNodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D30A3F21940C240014B21D /* iOSMediaNode */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4821940C660014B21D /* Classes */,
+				01D30A6F21940C6D0014B21D /* Resources */,
+				01D30A4021940C240014B21D /* iOSMediaNode.h */,
+				01D30A4121940C240014B21D /* Info.plist */,
+			);
+			path = iOSMediaNode;
+			sourceTree = "<group>";
+		};
+		01D30A4821940C660014B21D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4921940C660014B21D /* Core */,
+				01D30A4B21940C660014B21D /* Utils */,
+				01D30A4D21940C660014B21D /* GUI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01D30A4921940C660014B21D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4A21940C660014B21D /* MediaNode.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		01D30A4B21940C660014B21D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4C21940C660014B21D /* MediaNodeSelector.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		01D30A4D21940C660014B21D /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4E21940C660014B21D /* Extensions */,
+				01D30A5021940C660014B21D /* ViewControllers */,
+				01D30A5221940C660014B21D /* CustomViews */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		01D30A4E21940C660014B21D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A4F21940C660014B21D /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		01D30A5021940C660014B21D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A5121940C660014B21D /* MediaNodePickerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01D30A5221940C660014B21D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A5321940C660014B21D /* MediaNodeExplorerView.swift */,
+				01D30A5421940C660014B21D /* ChildMediaNodeTableView.swift */,
+				01D30A5521940C660014B21D /* ChildMediaNodeInfoViewCell.swift */,
+				01D30A5621940C660014B21D /* MediaNodePathBar.swift */,
+				01D30A5721940C660014B21D /* MediaNodePathAncestorCell.swift */,
+				01D30A5821940C660014B21D /* ParentMediaNodeInfoView.swift */,
+				01D30A5921940C660014B21D /* MediaNodePathLastCell.swift */,
+				01D30A5A21940C660014B21D /* MediaNodeSelectorView.swift */,
+				01D30A5B21940C660014B21D /* FoundMediaNodeInfoViewCell.swift */,
+				01D30A5C21940C660014B21D /* ConfirmMediaNodeSelectView.swift */,
+				01D30A5D21940C660014B21D /* FoundMediaNodeTableView.swift */,
+				01D30A5E21940C660014B21D /* TransparentButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		01D30A6F21940C6D0014B21D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A7021940C6D0014B21D /* Strings */,
+				01D30A7421940C6D0014B21D /* Nibs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01D30A7021940C6D0014B21D /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A7121940C6D0014B21D /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		01D30A7421940C6D0014B21D /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				01D30A7921940C6D0014B21D /* MediaNodePathLastCell.xib */,
+				01D30A7A21940C6D0014B21D /* ChildMediaNodeInfoViewCell.xib */,
+				01D30A7B21940C6D0014B21D /* MediaNodePathBar.xib */,
+				01D30A7C21940C6D0014B21D /* MediaNodePickerViewController.xib */,
+				01D30A7E21940C6D0014B21D /* ConfirmMediaNodeSelectView.xib */,
+				01D30A8021940C6D0014B21D /* MediaNodeSelectorView.xib */,
+				01D30A8121940C6D0014B21D /* MediaNodePathAncestorCell.xib */,
+				01D30A8221940C6D0014B21D /* FoundMediaNodeInfoViewCell.xib */,
+				01D30A8321940C6D0014B21D /* ParentMediaNodeInfoView.xib */,
+				01D30A8421940C6D0014B21D /* MediaNodeExplorerView.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		01D30A9B21940EEA0014B21D /* iOSMediaNodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01D30AB121940F240014B21D /* Resources */,
+				01D30A9C21940EEA0014B21D /* AppDelegate.swift */,
+				01D30A9E21940EEA0014B21D /* ViewController.swift */,
+				01D30ACB21940F740014B21D /* DemoMediaNode.swift */,
+				01D30AD8219411280014B21D /* Localizable.strings */,
+				01D30AD2219410A60014B21D /* Main.storyboard */,
+				01D30AA321940EEB0014B21D /* Assets.xcassets */,
+				01D30AA521940EEB0014B21D /* LaunchScreen.storyboard */,
+				01D30AA821940EEB0014B21D /* Info.plist */,
+			);
+			path = iOSMediaNodeDemo;
+			sourceTree = "<group>";
+		};
+		01D30AB121940F240014B21D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01D30AB321940F390014B21D /* Sounds */,
+				01D30AB221940F2B0014B21D /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01D30AB221940F2B0014B21D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01D30AB921940F4B0014B21D /* child_1.png */,
+				01D30AB521940F4B0014B21D /* child_2.png */,
+				01D30AB821940F4B0014B21D /* child_3.png */,
+				01D30ABA21940F4B0014B21D /* child_4.png */,
+				01D30AB621940F4B0014B21D /* grand_child_1.png */,
+				01D30AB421940F4A0014B21D /* grand_child_2.png */,
+				01D30AB721940F4B0014B21D /* grand_child_3.png */,
+				01D30ABB21940F4B0014B21D /* parent_root.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		01D30AB321940F390014B21D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				01D30AC421940F550014B21D /* sound_1.wav */,
+				01D30AC521940F550014B21D /* sound_2.wav */,
+				01D30AC621940F550014B21D /* sound_3.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01D30A3A21940C240014B21D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30A4221940C240014B21D /* iOSMediaNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01D30A3C21940C240014B21D /* iOSMediaNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D30A4521940C240014B21D /* Build configuration list for PBXNativeTarget "iOSMediaNode" */;
+			buildPhases = (
+				01D30A3821940C240014B21D /* Sources */,
+				01D30A3921940C240014B21D /* Frameworks */,
+				01D30A3A21940C240014B21D /* Headers */,
+				01D30A3B21940C240014B21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMediaNode;
+			productName = iOSMediaNode;
+			productReference = 01D30A3D21940C240014B21D /* iOSMediaNode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01D30A9921940EEA0014B21D /* iOSMediaNodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D30AA921940EEB0014B21D /* Build configuration list for PBXNativeTarget "iOSMediaNodeDemo" */;
+			buildPhases = (
+				01D30A9621940EEA0014B21D /* Sources */,
+				01D30A9721940EEA0014B21D /* Frameworks */,
+				01D30A9821940EEA0014B21D /* Resources */,
+				01D30AB021940EF50014B21D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D30AAF21940EF40014B21D /* PBXTargetDependency */,
+			);
+			name = iOSMediaNodeDemo;
+			productName = iOSMediaNodeDemo;
+			productReference = 01D30A9A21940EEA0014B21D /* iOSMediaNodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D30A3421940C240014B21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tkpphr;
+				TargetAttributes = {
+					01D30A3C21940C240014B21D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					01D30A9921940EEA0014B21D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 01D30A3721940C240014B21D /* Build configuration list for PBXProject "iOSMediaNode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = 01D30A3321940C240014B21D;
+			productRefGroup = 01D30A3E21940C240014B21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D30A3C21940C240014B21D /* iOSMediaNode */,
+				01D30A9921940EEA0014B21D /* iOSMediaNodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D30A3B21940C240014B21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30A8D21940C6D0014B21D /* MediaNodeSelectorView.xib in Resources */,
+				01D30A8521940C6D0014B21D /* Localizable.strings in Resources */,
+				01D30A8E21940C6D0014B21D /* MediaNodePathAncestorCell.xib in Resources */,
+				01D30A8821940C6D0014B21D /* MediaNodePathLastCell.xib in Resources */,
+				01D30A9121940C6D0014B21D /* MediaNodeExplorerView.xib in Resources */,
+				01D30A8B21940C6D0014B21D /* MediaNodePickerViewController.xib in Resources */,
+				01D30A8921940C6D0014B21D /* ChildMediaNodeInfoViewCell.xib in Resources */,
+				01D30A8F21940C6D0014B21D /* FoundMediaNodeInfoViewCell.xib in Resources */,
+				01D30A9021940C6D0014B21D /* ParentMediaNodeInfoView.xib in Resources */,
+				01D30A8C21940C6D0014B21D /* ConfirmMediaNodeSelectView.xib in Resources */,
+				01D30A8A21940C6D0014B21D /* MediaNodePathBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D30A9821940EEA0014B21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30AC921940F550014B21D /* sound_3.wav in Resources */,
+				01D30ABC21940F4B0014B21D /* grand_child_2.png in Resources */,
+				01D30AC221940F4B0014B21D /* child_4.png in Resources */,
+				01D30AA721940EEB0014B21D /* LaunchScreen.storyboard in Resources */,
+				01D30AA421940EEB0014B21D /* Assets.xcassets in Resources */,
+				01D30AC121940F4B0014B21D /* child_1.png in Resources */,
+				01D30ABF21940F4B0014B21D /* grand_child_3.png in Resources */,
+				01D30AC021940F4B0014B21D /* child_3.png in Resources */,
+				01D30AC321940F4B0014B21D /* parent_root.png in Resources */,
+				01D30AC821940F550014B21D /* sound_2.wav in Resources */,
+				01D30AD6219411280014B21D /* Localizable.strings in Resources */,
+				01D30AD0219410A60014B21D /* Main.storyboard in Resources */,
+				01D30AC721940F550014B21D /* sound_1.wav in Resources */,
+				01D30ABD21940F4B0014B21D /* child_2.png in Resources */,
+				01D30ABE21940F4B0014B21D /* grand_child_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D30A3821940C240014B21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30A6E21940C670014B21D /* TransparentButton.swift in Sources */,
+				01D30A6121940C670014B21D /* UIViewExtension.swift in Sources */,
+				01D30A6621940C670014B21D /* MediaNodePathBar.swift in Sources */,
+				01D30A6321940C670014B21D /* MediaNodeExplorerView.swift in Sources */,
+				01D30A6821940C670014B21D /* ParentMediaNodeInfoView.swift in Sources */,
+				01D30A6A21940C670014B21D /* MediaNodeSelectorView.swift in Sources */,
+				01D30A6521940C670014B21D /* ChildMediaNodeInfoViewCell.swift in Sources */,
+				01D30A6221940C670014B21D /* MediaNodePickerViewController.swift in Sources */,
+				01D30A6721940C670014B21D /* MediaNodePathAncestorCell.swift in Sources */,
+				01D30A6C21940C670014B21D /* ConfirmMediaNodeSelectView.swift in Sources */,
+				01D30A6421940C670014B21D /* ChildMediaNodeTableView.swift in Sources */,
+				01D30A5F21940C670014B21D /* MediaNode.swift in Sources */,
+				01D30A6021940C670014B21D /* MediaNodeSelector.swift in Sources */,
+				01D30A6B21940C670014B21D /* FoundMediaNodeInfoViewCell.swift in Sources */,
+				01D30A6921940C670014B21D /* MediaNodePathLastCell.swift in Sources */,
+				01D30A6D21940C670014B21D /* FoundMediaNodeTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D30A9621940EEA0014B21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D30ACD21940F740014B21D /* DemoMediaNode.swift in Sources */,
+				01D30A9F21940EEA0014B21D /* ViewController.swift in Sources */,
+				01D30A9D21940EEA0014B21D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D30AAF21940EF40014B21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D30A3C21940C240014B21D /* iOSMediaNode */;
+			targetProxy = 01D30AAE21940EF40014B21D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01D30A7121940C6D0014B21D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30A7221940C6D0014B21D /* ja */,
+				01D30A7321940C6D0014B21D /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		01D30A7C21940C6D0014B21D /* MediaNodePickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30A7D21940C6D0014B21D /* Base */,
+				01D30A9321940DEF0014B21D /* ja */,
+			);
+			name = MediaNodePickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		01D30A7E21940C6D0014B21D /* ConfirmMediaNodeSelectView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30A7F21940C6D0014B21D /* Base */,
+				01D30A9521940DF60014B21D /* ja */,
+			);
+			name = ConfirmMediaNodeSelectView.xib;
+			sourceTree = "<group>";
+		};
+		01D30AA521940EEB0014B21D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30AA621940EEB0014B21D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01D30AD2219410A60014B21D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30AD3219410AD0014B21D /* Base */,
+				01D30AD5219410B90014B21D /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01D30AD8219411280014B21D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D30AD92194112C0014B21D /* Base */,
+				01D30ADA219411350014B21D /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D30A4321940C240014B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		01D30A4421940C240014B21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01D30A4621940C240014B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSMediaNode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkpphr.iOSMediaNode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D30A4721940C240014B21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSMediaNode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkpphr.iOSMediaNode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01D30AAA21940EEB0014B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSMediaNodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkpphr.iOSMediaNodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D30AAB21940EEB0014B21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSMediaNodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkpphr.iOSMediaNodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D30A3721940C240014B21D /* Build configuration list for PBXProject "iOSMediaNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D30A4321940C240014B21D /* Debug */,
+				01D30A4421940C240014B21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D30A4521940C240014B21D /* Build configuration list for PBXNativeTarget "iOSMediaNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D30A4621940C240014B21D /* Debug */,
+				01D30A4721940C240014B21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D30AA921940EEB0014B21D /* Build configuration list for PBXNativeTarget "iOSMediaNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D30AAA21940EEB0014B21D /* Debug */,
+				01D30AAB21940EEB0014B21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D30A3421940C240014B21D /* Project object */;
+}

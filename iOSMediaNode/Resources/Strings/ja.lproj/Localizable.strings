@@ -1,0 +1,7 @@
+//Copyright (c) 2018-present tkpphr. All rights reserved.
+"path" = "パス";
+"image" = "画像";
+"sound" = "音声";
+"none" = "なし";
+"search" = "検索";
+"search_by_node_name" = "ノード名検索";
